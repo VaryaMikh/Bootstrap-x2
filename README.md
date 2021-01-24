@@ -4,7 +4,7 @@ This is a project I've used to learn thebasics of web devolomed. The main things
 
 * Tags
 * Css
-* [Boorstrap] (https://getbootstrap.com)
+* [Boorstrap](https://getbootstrap.com)
 
 
 
