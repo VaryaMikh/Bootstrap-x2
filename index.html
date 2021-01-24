@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="./assets/styles/lib/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/lib/bootstrap-reboot.min.css">
+
+	<style type="text/css">
+		.navbar {
+			padding: 15px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
+		  	<div class="container-fluid">
+		    	<a class="navbar-brand" href="#">Company name</a>
+		    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      		<span class="navbar-toggler-icon"></span>
+		    	</button>
+			 
+				<form class="d-flex">
+				    <nav class="nav">
+						<a class="nav-link text-dark text-decoration-underline" href="#">Features</a>
+						<a class="nav-link text-dark text-decoration-underline" href="#">Enterprise</a>
+						<a class="nav-link text-dark text-decoration-underline" href="#">Support</a>
+						<a class="nav-link text-dark text-decoration-underline" href="#">Pricing</a>
+					</nav>
+				    <button class="btn btn-outline-primary" type="submit">Sign up</button>
+				</form>
+			</div>
+		</nav>
+	</header>
+
+	<section class="main">
+		<div class="container">
+			<div class="main__header text-center">
+				<h1 class="display-4">Pricing</h1>
+				<p class="lead">
+  					Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.
+				</p>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-3">
+					<div class="card text-center">
+					  	<h4 class="card-header">Free</h4>
+					  	<div class="card-body">
+					    	<h1>
+  								$0
+  								<small class="text-muted">/ mo</small>
+							</h1>
+							<ul class="list-unstyled"> 
+						    	<li class="card-text">10 users included</li>
+				    			<li class="card-text">2 GB of storage</li>
+				    			<li class="card-text">Email support</li>
+				    			<li class="card-text">Help center access</li>
+			    			</ul>
+					    	<button class="btn btn-outline-primary w-100" type="submit">Sign up for free</button>
+					  	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card text-center">
+					  	<h4 class="card-header">Pro</h4>
+					  	<div class="card-body">
+					    	<h1>
+  								$15
+  								<small class="text-muted">/ mo</small>
+							</h1>
+							<ul class="list-unstyled"> 
+						    	<li class="card-text">20 users included</li>
+				    			<li class="card-text">10 GB of storage</li>
+				    			<li class="card-text">Priority email support</li>
+				    			<li class="card-text">Help center access</li>
+			    			</ul>
+					    	<a href="#" class="btn btn-primary w-100">Get started</a>
+					  	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card text-center">
+					  	<h4 class="card-header">Enterprise</h4>
+					  	<div class="card-body">
+					    	<h1>
+  								$29
+  								<small class="text-muted">/ mo</small>
+							</h1>
+							<ul class="list-unstyled"> 
+						    	<li class="card-text">30 users included</li>
+				    			<li class="card-text">15 GB of storage</li>
+				    			<li class="card-text">Phone and email support</li>
+				    			<li class="card-text">Help center access</li>
+			    			</ul>
+					    	<a href="#" class="btn btn-primary w-100">Contact us</a>
+					  	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="./assets/scripts/lib/bootstrap.min.js"></script>
+	<!-- <script type="text/javascript" src="./assets/scripts/app.js"></script> -->
+</body>
+</html>
